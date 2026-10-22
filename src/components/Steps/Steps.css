@@ -1,0 +1,58 @@
+.steps-section {
+  padding: 80px 8%;
+  background-color: var(--surface-muted);
+  color: var(--text-dark);
+}
+
+.steps-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.steps-timeline {
+  display: flex;
+  background-color: var(--border);
+  padding: 6px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-radius: 8px;
+}
+
+.step.active {
+  background-color: #005bff;
+  color: #ffffff;
+}
+
+.step-detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.detail-card {
+  background-color: var(--surface);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+
+.detail-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--accent);
+}
+
+.detail-card p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}

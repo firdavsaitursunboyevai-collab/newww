@@ -1,0 +1,50 @@
+.advantages-section {
+  padding: 80px 8%;
+  background-color: var(--surface);
+  color: var(--text-dark);
+}
+
+.advantages-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.adv-card {
+  background-color: var(--surface-muted);
+  padding: 30px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  border: 1px solid var(--border);
+  position: relative;
+}
+
+.adv-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text-dark);
+}
+
+.adv-card p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.arrow-icon {
+  align-self: flex-start;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #005bff;
+  font-weight: bold;
+}

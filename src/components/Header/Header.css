@@ -1,0 +1,63 @@
+.ozon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: var(--page-dark);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-primary);
+  text-transform: lowercase;
+}
+
+.country {
+  margin-left: 15px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.header-nav a {
+  color: var(--text-primary);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.header-nav a:hover {
+  color: #005bff;
+}
+
+.header-auth .btn-login {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--accent);
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.header-auth .btn-theme {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--accent);
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.header-auth .btn-register {
+  background-color: var(--accent);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
